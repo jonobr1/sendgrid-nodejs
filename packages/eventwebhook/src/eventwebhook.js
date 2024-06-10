@@ -44,11 +44,11 @@ class EventWebhook {
  */
 class EventWebhookHeader {
   static SIGNATURE() {
-    return 'X-Twilio-Email-Event-Webhook-Signature';
+    return 'x-twilio-email-event-webhook-signature';
   }
 
   static TIMESTAMP() {
-    return 'X-Twilio-Email-Event-Webhook-Timestamp';
+    return 'x-twilio-email-event-webhook-timestamp';
   }
 }
 
